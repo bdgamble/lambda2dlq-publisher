@@ -1,0 +1,7 @@
+env:
+  mocha: true
+
+plugins: ["mocha"]
+
+rules:
+  no-console: 0

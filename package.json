@@ -1,0 +1,38 @@
+{
+  "name": "lambda2dlq-publisher",
+  "version": "1.0.0",
+  "description": "takes lambda event and context and allows publishing to a specified dlq",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests",
+    "posttest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdgamble/lambda2dlq-publisher.git"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "dlq"
+  ],
+  "author": "Bryan Gamble <bryan.d.gamble@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bdgamble/lambda2dlq-publisher/issues"
+  },
+  "homepage": "https://github.com/bdgamble/lambda2dlq-publisher#readme",
+  "dependencies": {
+    "aws-sdk": "2.40.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "env-test": "^1.0.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  }
+}
